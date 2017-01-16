@@ -1,0 +1,16 @@
+# air workd (cont)
+# count intensity light
+
+	int light(3%useLightWH1)
+	int light(3%useLightWH2)
+	int light("%20 light open (three)")
+
+	p var 6 {
+		state var 6 = white3.lr
+		var 6 inten = 73
+		var 6 opc = 11
+}
+
+	while open light (start) workd
+	get stat light.workd
+		out(ch1)()

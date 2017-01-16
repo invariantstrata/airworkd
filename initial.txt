@@ -1,0 +1,25 @@
+# air workd
+# tau concrete part 1
+
+	con pt var($json)
+	object note 1()
+
+	counter %20H:%20M:%20S
+	hex.color(645f24)
+	hex.color2(175c6a)
+	hex.color3(e5d7d2)
+
+    p var 0 {
+	init var p.main 1
+	init var($json)
+	clip var db(send clip db)
+	void delete_unseenVar1
+	pToken *add_seenVar7
+
+}
+
+	pickString(char str[]){
+	size_t len = strlen(str)
+	out light inten = 73
+		keep("white") while
+		nov i.mallLen()
